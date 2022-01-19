@@ -22,17 +22,17 @@ body {
 .game-area {
     background-color: blue;
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
     max-height: 480px;
     max-width: 800px;
-    height: 70vh;
+    height: 85vh;
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .choice-area {
-    margin: 30px auto;
+    margin: 50px 150px;
     width: 85%;
 }
 
@@ -41,15 +41,12 @@ body {
 .rock, .paper, .scissors {
     width: 200px;
     height: 60px;
-    letter-spacing: 1px;
     color: gray;
-    padding-top: 10px;
-    border-radius: 50%;
+    padding: 1rem;
     background-color: yellow;
-    border: 8px solid;
+    border-radius: 10px;
     height: 100px;
     width: 100px;
     margin: 0 25px;
-    transition: all 0.5s;
     font-size: 3rem;
 }
