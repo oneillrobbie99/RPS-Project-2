@@ -1,4 +1,19 @@
+/* title */
 .logo {
     height: 50px;
     padding-right: 10px;
 }
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* general styling */
+
+body {
+    background-color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ddd;
+}
+
